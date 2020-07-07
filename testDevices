@@ -1,0 +1,12 @@
+# Configure and build for argon
+configure argon 1.5.2
+build
+
+# Configure and build for boron
+configure boron 1.5.2
+build
+
+# Configure and build for photon
+configure photon 1.5.2
+build
+
