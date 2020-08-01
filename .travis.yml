@@ -9,6 +9,7 @@ install:
   - chmod +x neopo
   - neopo install
 script:
+  - neopo build
   - neopo load testDevices
   - neopo script testDevices
 cache:
